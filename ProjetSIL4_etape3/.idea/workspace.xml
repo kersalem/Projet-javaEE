@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ProjetSIL4_etape3:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a468248d-e9ab-437e-b872-96c0141df5e4" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectId" id="1WWBCG5YSop1BUqx53EmnONlmU7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/projet/data" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15625" />
+    <property name="project.structure.side.proportion" value="0.13422817" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="projet.data" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/projet/data" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF/JSP" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF" />
+      <recent name="$PROJECT_DIR$/web" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GlassFish 5.194.0" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.194.0" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ProjetSIL4_etape3_war_exploded/" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="ProjetSIL4_etape3:war exploded">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="DOMAIN" value="domain1" />
+        <option name="PRESERVE" value="false" />
+        <option name="COMPATIBILITY" value="false" />
+        <option name="VIRTUAL_SERVER" />
+        <option name="USERNAME" value="admin" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="GlassFish" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9009" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ProjetSIL4_etape3:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="GlassFish Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="GlassFish Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a468248d-e9ab-437e-b872-96c0141df5e4" name="Default" comment="" />
+      <created>1512379670953</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512379670953</updated>
+      <workItem from="1512379675905" duration="2629000" />
+      <workItem from="1513004916839" duration="581000" />
+      <workItem from="1513334513820" duration="333000" />
+      <workItem from="1515750497488" duration="1149000" />
+      <workItem from="1544621002960" duration="1709000" />
+      <workItem from="1575974609896" duration="1634000" />
+      <workItem from="1576491666424" duration="1301000" />
+      <workItem from="1579255342983" duration="11487000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="313" y="183" width="489" height="574" key="DetectedRootsChooserDialog" timestamp="1579265123773">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="313" y="183" width="489" height="574" key="DetectedRootsChooserDialog/70.27.1530.873@70.27.1530.873" timestamp="1579265123773" />
+    <state x="118" y="152" width="907" height="512" key="FileChooserDialogImpl" timestamp="1579265713581">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="118" y="152" width="907" height="512" key="FileChooserDialogImpl/70.27.1530.873@70.27.1530.873" timestamp="1579265713581" />
+    <state width="616" height="216" key="GridCell.Tab.0.bottom" timestamp="1579270928686">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="616" height="216" key="GridCell.Tab.0.bottom/70.27.1530.873@70.27.1530.873" timestamp="1579270928686" />
+    <state width="616" height="216" key="GridCell.Tab.0.center" timestamp="1579270928685">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="616" height="216" key="GridCell.Tab.0.center/70.27.1530.873@70.27.1530.873" timestamp="1579270928685" />
+    <state width="616" height="216" key="GridCell.Tab.0.left" timestamp="1579270928685">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="616" height="216" key="GridCell.Tab.0.left/70.27.1530.873@70.27.1530.873" timestamp="1579270928685" />
+    <state width="616" height="216" key="GridCell.Tab.0.right" timestamp="1579270928686">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="616" height="216" key="GridCell.Tab.0.right/70.27.1530.873@70.27.1530.873" timestamp="1579270928686" />
+    <state width="552" height="216" key="GridCell.Tab.1.bottom" timestamp="1579270928376">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="552" height="216" key="GridCell.Tab.1.bottom/70.27.1530.873@70.27.1530.873" timestamp="1579270928376" />
+    <state width="552" height="216" key="GridCell.Tab.1.center" timestamp="1579270928376">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="552" height="216" key="GridCell.Tab.1.center/70.27.1530.873@70.27.1530.873" timestamp="1579270928376" />
+    <state width="552" height="216" key="GridCell.Tab.1.left" timestamp="1579270928375">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="552" height="216" key="GridCell.Tab.1.left/70.27.1530.873@70.27.1530.873" timestamp="1579270928375" />
+    <state width="552" height="216" key="GridCell.Tab.1.right" timestamp="1579270928376">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="552" height="216" key="GridCell.Tab.1.right/70.27.1530.873@70.27.1530.873" timestamp="1579270928376" />
+    <state x="70" y="98" width="1206" height="797" key="SettingsEditor" timestamp="1579266068949">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="70" y="98" width="1206" height="797" key="SettingsEditor/70.27.1530.873@70.27.1530.873" timestamp="1579266068949" />
+    <state x="235" y="362" width="636" height="231" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1579266055341">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="235" y="362" width="636" height="231" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/70.27.1530.873@70.27.1530.873" timestamp="1579266055341" />
+    <state x="862" y="67" width="710" height="792" key="find.popup" timestamp="1579263321998">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="862" y="67" width="710" height="792" key="find.popup/70.27.1530.873@70.27.1530.873" timestamp="1579263321998" />
+    <state x="493" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1579270368860">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="493" y="212" width="672" height="678" key="search.everywhere.popup/70.27.1530.873@70.27.1530.873" timestamp="1579270368860" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/WEB-INF/JSP/ficheEtudiant.jsp</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
