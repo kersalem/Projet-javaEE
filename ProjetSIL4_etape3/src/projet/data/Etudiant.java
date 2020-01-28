@@ -4,9 +4,12 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import java.io.Serializable;
+import javax.persistence.*;
+
 
 @Entity
-public class Etudiant {
+public class Etudiant implements Serializable {
 
 	@Id
 	@GeneratedValue
@@ -20,20 +23,21 @@ public class Etudiant {
 
 	private int nbAbsences;
 	private int moyenneGenerale;
-	//private Groupe groupe;
+//	@ManyToOne
+//	private Groupe groupe;
 
 	public Etudiant() {
 		super();
 	}
 
-	public Etudiant(Integer id, String prenom, String nom, Groupe groupe) {
+	public Etudiant(Integer id, String prenom, String nom) { //Groupe groupe
 		super();
 		this.id = id;
 		this.prenom = prenom;
 		this.nom = nom;
 		this.nbAbsences = 0;
 		this.moyenneGenerale = 20;
-		//this.groupe = groupe;
+//		this.groupe = groupe;
 	}
 
 	public Integer getId() {
@@ -68,13 +72,15 @@ public class Etudiant {
 		this.nbAbsences = nbAbsences;
 	}
 
-/*	public Groupe getGroupe() {
+/*
+	public Groupe getGroupe() {
 		return groupe;
 	}
 
 	public void setGroupe(Groupe groupe) {
 		this.groupe = groupe;
-	}*/
+	}
+*/
 
 	public int getMoyenneGenerale() {
 		return moyenneGenerale;
