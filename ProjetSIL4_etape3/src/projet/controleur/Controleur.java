@@ -78,7 +78,7 @@ public class Controleur extends HttpServlet {
 		} else if (action.equals("/listeEtudiants")) {
 			doListeEtudiants(request, response);
 		} else if (action.equals("/etudiant")) {
-			//doEtudiant(request, response);
+			doEtudiant(request, response);
 		} else if (action.equals("/consultationAbsences")) {
 			//doConsultationAbsences(request, response);
 		} else if (action.equals("/consultationNotes")) {

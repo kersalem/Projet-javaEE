@@ -18,7 +18,7 @@
 </div>
 
 <a href="<%= application.getContextPath()%>/do/accueil">Accueil</a>
-<a href="<%= application.getContextPath()%>/do/listeEtudiants">les étudiants</a>
+<a href="<%= application.getContextPath()%>/do/listeEtudiants">Les étudiants</a>
 <a href="<%= application.getContextPath()%>/do/consultationNotes">Consulter les notes</a>
 <a href="<%= application.getContextPath()%>/do/consultationAbsences">Consulter les absences</a>
 

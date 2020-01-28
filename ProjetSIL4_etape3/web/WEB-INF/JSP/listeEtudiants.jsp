@@ -26,7 +26,7 @@ for (Etudiant etudiant : listeEtudiants) {
 %>
 	<tr>
 		<td><a href="<%= application.getContextPath()%>/do/etudiant?id=<%=etudiant.getId()%>"><%=etudiant.getPrenom()%> <%=etudiant.getNom()%></a></td>
-<%--		<td><%=etudiant.getGroupe()%></td>--%>
+		<%--<td><%=etudiant.getGroupe()%></td>--%>
 	</tr>
 <%
 }
