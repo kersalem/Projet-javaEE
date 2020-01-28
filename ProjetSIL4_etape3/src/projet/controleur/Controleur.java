@@ -45,6 +45,8 @@ public class Controleur extends HttpServlet {
 		urlEtudiant = getServletConfig().getInitParameter("urlEtudiant");
 		urlConsultationAbsences = getServletConfig().getInitParameter("urlConsultationAbsences");
 		urlConsultationNotes = getServletConfig().getInitParameter("urlConsultationNotes");
+
+		EtudiantDAO.create("test", "test");
 	}
 
 	@Override
@@ -75,16 +77,12 @@ public class Controleur extends HttpServlet {
 			doAcceuil(request, response);
 		} else if (action.equals("/listeEtudiants")) {
 			doListeEtudiants(request, response);
-
 		} else if (action.equals("/etudiant")) {
-			doEtudiant(request, response);
-
+			//doEtudiant(request, response);
 		} else if (action.equals("/consultationAbsences")) {
-
-			doConsultationAbsences(request, response);
+			//doConsultationAbsences(request, response);
 		} else if (action.equals("/consultationNotes")) {
-			doConsultationNotes(request, response);
-
+			//doConsultationNotes(request, response);
 		} else {
 			// Autres cas
 			doAcceuil(request, response);
@@ -101,82 +99,82 @@ public class Controleur extends HttpServlet {
 		loadJSP(urlGestionTemplate, request, response);
 	}
 
-	// /////////////////////// Liste des étudiants
-	//
+//	// /////////////////////// Liste des étudiants
+
 	private void doListeEtudiants(HttpServletRequest request,
 									 HttpServletResponse response) throws ServletException, IOException {
 
 		// Récupérer les étudiants
-		Collection<Etudiant> listeEtudiants = EtudiantDAO.getAll();
+	Collection<Etudiant> listeEtudiants = EtudiantDAO.getAll();
 
 		// Mettre les étudians en attibuts de request
 		request.setAttribute("listeEtudiants", listeEtudiants);
 
 		//
 		request.setAttribute("content", urlListeEtudiants);
-		loadJSP(urlGestionTemplate, request, response);
+	loadJSP(urlGestionTemplate, request, response);
 	}
 
-	///////////////////////// Détails étudiant
-	//
-	private void doEtudiant(HttpServletRequest request, HttpServletResponse response)
-			throws ServletException, IOException {
-
-		// Récupérer le parametre id, l'objet Etudiant associé, le nombre d'absences et la moyenne
-		int idEtudiant = Integer.parseInt(request.getParameter("id"));
-		Etudiant etudiant = EtudiantDAO.retrieveById(idEtudiant);
-		int nbAbsences = etudiant.getNbAbsences();
-		int note = etudiant.getMoyenneGenerale();
-
-		// Mettre l'objet étudiant en attribut pour affichage par la vue
-		// correspondant
-		request.setAttribute("etudiant", etudiant);
-		request.setAttribute("nbAbsences", nbAbsences);
-		request.setAttribute("note", note);
-
-		//
-		request.setAttribute("content", urlEtudiant);
-		loadJSP(urlGestionTemplate, request, response);
-	}
-
-
-	// /////////////////////// CONSULTATION NOTES
-	//
-	private void doConsultationNotes(HttpServletRequest request,
-			HttpServletResponse response) throws ServletException, IOException {
-
-		// Récupérer les étudiants en fonction du filtre groupe
-		Collection<Etudiant> listeEtudiants = EtudiantDAO.getAll();
-
-		// Récupérer l'association Etudiant/Note pour affichage
-//		Map<Etudiant, Integer> listeNotesEtudiants = EtudiantDAO.getNoteByEtudiants(listeEtudiants);
-
-		//
-		//request.setAttribute("listeNotesEtudiants", listeNotesEtudiants);
-
-		//
-		request.setAttribute("content", urlConsultationNotes);
-		loadJSP(urlGestionTemplate, request, response);
-	}
-
-	// /////////////////////// CONSULTATION ABSENCES
-	//
-	private void doConsultationAbsences(HttpServletRequest request,
-			HttpServletResponse response) throws ServletException, IOException {
-
-		// Récupérer les étudiants
-		Collection<Etudiant> listeEtudiants = EtudiantDAO.getAll();
-
-		// Récupérer l'association Etudiant/Note pour affichage
-		//Map<Etudiant, Integer> listeAbsencesEtudiants = EtudiantDAO.getAbsencesByEtudiants(listeEtudiants);
-
-		//
-		//request.setAttribute("listeAbsencesEtudiants", listeAbsencesEtudiants);
-
-		//
-		request.setAttribute("content", urlConsultationAbsences);
-		loadJSP(urlGestionTemplate, request, response);
-	}
+//	///////////////////////// Détails étudiant
+//	//
+//	private void doEtudiant(HttpServletRequest request, HttpServletResponse response)
+//			throws ServletException, IOException {
+//
+//		// Récupérer le parametre id, l'objet Etudiant associé, le nombre d'absences et la moyenne
+//		int idEtudiant = Integer.parseInt(request.getParameter("id"));
+//		Etudiant etudiant = EtudiantDAO.retrieveById(idEtudiant);
+//		int nbAbsences = etudiant.getNbAbsences();
+//		int note = etudiant.getMoyenneGenerale();
+//
+//		// Mettre l'objet étudiant en attribut pour affichage par la vue
+//		// correspondant
+//		request.setAttribute("etudiant", etudiant);
+//		request.setAttribute("nbAbsences", nbAbsences);
+//		request.setAttribute("note", note);
+//
+//		//
+//		request.setAttribute("content", urlEtudiant);
+//		loadJSP(urlGestionTemplate, request, response);
+//	}
+//
+//
+//	// /////////////////////// CONSULTATION NOTES
+//	//
+//	private void doConsultationNotes(HttpServletRequest request,
+//			HttpServletResponse response) throws ServletException, IOException {
+//
+//		// Récupérer les étudiants en fonction du filtre groupe
+//		Collection<Etudiant> listeEtudiants = EtudiantDAO.getAll();
+//
+//		// Récupérer l'association Etudiant/Note pour affichage
+////		Map<Etudiant, Integer> listeNotesEtudiants = EtudiantDAO.getNoteByEtudiants(listeEtudiants);
+//
+//		//
+//		//request.setAttribute("listeNotesEtudiants", listeNotesEtudiants);
+//
+//		//
+//		request.setAttribute("content", urlConsultationNotes);
+//		loadJSP(urlGestionTemplate, request, response);
+//	}
+//
+//	// /////////////////////// CONSULTATION ABSENCES
+//	//
+//	private void doConsultationAbsences(HttpServletRequest request,
+//			HttpServletResponse response) throws ServletException, IOException {
+//
+//		// Récupérer les étudiants
+//		Collection<Etudiant> listeEtudiants = EtudiantDAO.getAll();
+//
+//		// Récupérer l'association Etudiant/Note pour affichage
+//		//Map<Etudiant, Integer> listeAbsencesEtudiants = EtudiantDAO.getAbsencesByEtudiants(listeEtudiants);
+//
+//		//
+//		//request.setAttribute("listeAbsencesEtudiants", listeAbsencesEtudiants);
+//
+//		//
+//		request.setAttribute("content", urlConsultationAbsences);
+//		loadJSP(urlGestionTemplate, request, response);
+//	}
 	
 
 

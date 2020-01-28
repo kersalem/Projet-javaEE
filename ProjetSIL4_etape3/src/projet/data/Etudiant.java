@@ -1,18 +1,31 @@
 package projet.data;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
 public class Etudiant {
-	
+
+	@Id
+	@GeneratedValue
 	private Integer id;
+
+	@Column(nullable=false)
 	private String prenom;
+
+	@Column(nullable=false)
 	private String nom;
+
 	private int nbAbsences;
 	private int moyenneGenerale;
-	private Groupe groupe;
-	
+	//private Groupe groupe;
+
 	public Etudiant() {
 		super();
 	}
-	
+
 	public Etudiant(Integer id, String prenom, String nom, Groupe groupe) {
 		super();
 		this.id = id;
@@ -20,7 +33,7 @@ public class Etudiant {
 		this.nom = nom;
 		this.nbAbsences = 0;
 		this.moyenneGenerale = 20;
-		this.groupe = groupe;
+		//this.groupe = groupe;
 	}
 
 	public Integer getId() {
@@ -46,7 +59,7 @@ public class Etudiant {
 	public void setNom(String nom) {
 		this.nom = nom;
 	}
-	
+
 	public int getNbAbsences() {
 		return nbAbsences;
 	}
@@ -55,13 +68,13 @@ public class Etudiant {
 		this.nbAbsences = nbAbsences;
 	}
 
-	public Groupe getGroupe() {
+/*	public Groupe getGroupe() {
 		return groupe;
 	}
 
 	public void setGroupe(Groupe groupe) {
 		this.groupe = groupe;
-	}
+	}*/
 
 	public int getMoyenneGenerale() {
 		return moyenneGenerale;

@@ -6,44 +6,125 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a468248d-e9ab-437e-b872-96c0141df5e4" name="Default" comment="" />
+    <list default="true" id="a468248d-e9ab-437e-b872-96c0141df5e4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ProjetSIL4_etape3_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/63f21fa7-4203-47a5-94fc-7ba72cbe7953.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/lib/commonj.sdo-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/lib/eclipselink-2.7.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/lib/jakarta.persistence-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.48.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/lib/sqlite-jdbc-3.30.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ProjetSIL4_etape3_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ProjetSIL4_etape3_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/listeEtudiants.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/listeEtudiants.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/controleur/Controleur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/controleur/Controleur.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/Etudiant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/Etudiant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/EtudiantDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/EtudiantDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/GestionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/GestionFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/Groupe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/Groupe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/GroupeDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/GroupeDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/Module.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/Module.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/ModuleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/data/ModuleDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/controleur/Controleur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/controleur/Controleur.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/Etudiant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/Etudiant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/EtudiantDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/EtudiantDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/GestionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/GestionFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/Groupe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/Groupe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/GroupeDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/GroupeDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/Module.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/Module.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/ModuleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/data/ModuleDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projet/controleur/Controleur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projet/controleur/Controleur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projet/data/Etudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projet/data/Etudiant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projet/data/EtudiantDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projet/data/EtudiantDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/JSP/listeEtudiants.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/listeEtudiants.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MI4BDsqlite.db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MI4BDsqlite.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MI4BDsqlite.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MI4BDsqlite.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="ETUDIANT: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="PhpServers">
     <servers />
   </component>
   <component name="ProjectId" id="1WWBCG5YSop1BUqx53EmnONlmU7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/projet/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ProjetJPA2(2)/ProjetJPA2" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15625" />
-    <property name="project.structure.side.proportion" value="0.13422817" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.34591195" />
+    <property name="project.structure.side.proportion" value="0.49238577" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -210,7 +291,9 @@
       <workItem from="1544621002960" duration="1709000" />
       <workItem from="1575974609896" duration="1634000" />
       <workItem from="1576491666424" duration="1301000" />
-      <workItem from="1579255342983" duration="11487000" />
+      <workItem from="1579255342983" duration="16199000" />
+      <workItem from="1580137784963" duration="5007000" />
+      <workItem from="1580195502335" duration="599000" />
     </task>
     <servers />
   </component>
@@ -218,50 +301,66 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="430" y="125" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579272710892">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="430" y="125" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1530.873@70.27.1530.873" timestamp="1579272710892" />
+    <state x="406" y="254" width="524" height="491" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1580142410368">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="406" y="254" width="524" height="491" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/70.27.1530.873@70.27.1530.873" timestamp="1580142410368" />
+    <state x="406" y="27" width="983" height="814" key="CommitChangelistDialog2" timestamp="1579275464743">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="406" y="27" width="983" height="814" key="CommitChangelistDialog2/70.27.1530.873@70.27.1530.873" timestamp="1579275464743" />
     <state x="313" y="183" width="489" height="574" key="DetectedRootsChooserDialog" timestamp="1579265123773">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
     <state x="313" y="183" width="489" height="574" key="DetectedRootsChooserDialog/70.27.1530.873@70.27.1530.873" timestamp="1579265123773" />
-    <state x="118" y="152" width="907" height="512" key="FileChooserDialogImpl" timestamp="1579265713581">
+    <state x="118" y="152" width="907" height="512" key="FileChooserDialogImpl" timestamp="1580138090445">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state x="118" y="152" width="907" height="512" key="FileChooserDialogImpl/70.27.1530.873@70.27.1530.873" timestamp="1579265713581" />
-    <state width="616" height="216" key="GridCell.Tab.0.bottom" timestamp="1579270928686">
+    <state x="118" y="152" width="907" height="512" key="FileChooserDialogImpl/70.27.1530.873@70.27.1530.873" timestamp="1580138090445" />
+    <state width="1018" height="215" key="GridCell.Tab.0.bottom" timestamp="1580143372862">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state width="616" height="216" key="GridCell.Tab.0.bottom/70.27.1530.873@70.27.1530.873" timestamp="1579270928686" />
-    <state width="616" height="216" key="GridCell.Tab.0.center" timestamp="1579270928685">
+    <state width="1018" height="215" key="GridCell.Tab.0.bottom/70.27.1530.873@70.27.1530.873" timestamp="1580143372862" />
+    <state width="1018" height="215" key="GridCell.Tab.0.center" timestamp="1580143372862">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state width="616" height="216" key="GridCell.Tab.0.center/70.27.1530.873@70.27.1530.873" timestamp="1579270928685" />
-    <state width="616" height="216" key="GridCell.Tab.0.left" timestamp="1579270928685">
+    <state width="1018" height="215" key="GridCell.Tab.0.center/70.27.1530.873@70.27.1530.873" timestamp="1580143372862" />
+    <state width="1018" height="215" key="GridCell.Tab.0.left" timestamp="1580143372861">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state width="616" height="216" key="GridCell.Tab.0.left/70.27.1530.873@70.27.1530.873" timestamp="1579270928685" />
-    <state width="616" height="216" key="GridCell.Tab.0.right" timestamp="1579270928686">
+    <state width="1018" height="215" key="GridCell.Tab.0.left/70.27.1530.873@70.27.1530.873" timestamp="1580143372861" />
+    <state width="1018" height="215" key="GridCell.Tab.0.right" timestamp="1580143372862">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state width="616" height="216" key="GridCell.Tab.0.right/70.27.1530.873@70.27.1530.873" timestamp="1579270928686" />
-    <state width="552" height="216" key="GridCell.Tab.1.bottom" timestamp="1579270928376">
+    <state width="1018" height="215" key="GridCell.Tab.0.right/70.27.1530.873@70.27.1530.873" timestamp="1580143372862" />
+    <state width="1018" height="215" key="GridCell.Tab.1.bottom" timestamp="1580143372863">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state width="552" height="216" key="GridCell.Tab.1.bottom/70.27.1530.873@70.27.1530.873" timestamp="1579270928376" />
-    <state width="552" height="216" key="GridCell.Tab.1.center" timestamp="1579270928376">
+    <state width="1018" height="215" key="GridCell.Tab.1.bottom/70.27.1530.873@70.27.1530.873" timestamp="1580143372863" />
+    <state width="1018" height="215" key="GridCell.Tab.1.center" timestamp="1580143372863">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state width="552" height="216" key="GridCell.Tab.1.center/70.27.1530.873@70.27.1530.873" timestamp="1579270928376" />
-    <state width="552" height="216" key="GridCell.Tab.1.left" timestamp="1579270928375">
+    <state width="1018" height="215" key="GridCell.Tab.1.center/70.27.1530.873@70.27.1530.873" timestamp="1580143372863" />
+    <state width="1018" height="215" key="GridCell.Tab.1.left" timestamp="1580143372863">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state width="552" height="216" key="GridCell.Tab.1.left/70.27.1530.873@70.27.1530.873" timestamp="1579270928375" />
-    <state width="552" height="216" key="GridCell.Tab.1.right" timestamp="1579270928376">
+    <state width="1018" height="215" key="GridCell.Tab.1.left/70.27.1530.873@70.27.1530.873" timestamp="1580143372863" />
+    <state width="1018" height="215" key="GridCell.Tab.1.right" timestamp="1580143372863">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state width="552" height="216" key="GridCell.Tab.1.right/70.27.1530.873@70.27.1530.873" timestamp="1579270928376" />
-    <state x="70" y="98" width="1206" height="797" key="SettingsEditor" timestamp="1579266068949">
+    <state width="1018" height="215" key="GridCell.Tab.1.right/70.27.1530.873@70.27.1530.873" timestamp="1580143372863" />
+    <state x="70" y="98" width="1206" height="797" key="SettingsEditor" timestamp="1580142442310">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state x="70" y="98" width="1206" height="797" key="SettingsEditor/70.27.1530.873@70.27.1530.873" timestamp="1579266068949" />
+    <state x="70" y="98" width="1206" height="797" key="SettingsEditor/70.27.1530.873@70.27.1530.873" timestamp="1580142442310" />
+    <state x="491" y="291" key="com.intellij.ide.util.TipDialog" timestamp="1580195502405">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="491" y="291" key="com.intellij.ide.util.TipDialog/70.27.1530.873@70.27.1530.873" timestamp="1580195502405" />
     <state x="235" y="362" width="636" height="231" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1579266055341">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
@@ -270,10 +369,10 @@
       <screen x="70" y="27" width="1530" height="873" />
     </state>
     <state x="862" y="67" width="710" height="792" key="find.popup/70.27.1530.873@70.27.1530.873" timestamp="1579263321998" />
-    <state x="493" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1579270368860">
+    <state x="493" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1580138047044">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state x="493" y="212" width="672" height="678" key="search.everywhere.popup/70.27.1530.873@70.27.1530.873" timestamp="1579270368860" />
+    <state x="493" y="212" width="672" height="678" key="search.everywhere.popup/70.27.1530.873@70.27.1530.873" timestamp="1580138047044" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
