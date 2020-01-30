@@ -6,16 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a468248d-e9ab-437e-b872-96c0141df5e4" name="Default" comment="Insérer .db dans data&#10;groupe tjrs commenté&#10;changer chemin persistence">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="a468248d-e9ab-437e-b872-96c0141df5e4" name="Default" comment="accès fiche étudiant">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/gestionTemplate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/gestionTemplate.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/listeEtudiants.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/listeEtudiants.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/ficheEtudiant.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/JSP/ficheEtudiant.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/controleur/Controleur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetSIL4_etape3_war_exploded/WEB-INF/classes/projet/controleur/Controleur.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/controleur/Controleur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSIL4_etape3/projet/controleur/Controleur.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projet/controleur/Controleur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projet/controleur/Controleur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/JSP/ficheEtudiant.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/ficheEtudiant.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/JSP/gestionTemplate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/gestionTemplate.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/JSP/listeEtudiants.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/listeEtudiants.jsp" afterDir="false" />
     </list>
@@ -94,7 +90,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ProjetJPA2" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.34591195" />
@@ -267,7 +263,8 @@
       <workItem from="1576491666424" duration="1301000" />
       <workItem from="1579255342983" duration="16199000" />
       <workItem from="1580137784963" duration="5007000" />
-      <workItem from="1580195502335" duration="12222000" />
+      <workItem from="1580195502335" duration="13006000" />
+      <workItem from="1580396037908" duration="1872000" />
     </task>
     <task id="LOCAL-00001" summary="Insérer .db dans data&#10;groupe tjrs commenté&#10;changer chemin persistence">
       <created>1580204587257</created>
@@ -276,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580204587257</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="accès fiche étudiant">
+      <created>1580207807960</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580207807960</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +288,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Insérer .db dans data&#10;groupe tjrs commenté&#10;changer chemin persistence" />
-    <option name="LAST_COMMIT_MESSAGE" value="Insérer .db dans data&#10;groupe tjrs commenté&#10;changer chemin persistence" />
+    <MESSAGE value="accès fiche étudiant" />
+    <option name="LAST_COMMIT_MESSAGE" value="accès fiche étudiant" />
   </component>
   <component name="WindowStateProjectService">
     <state x="430" y="125" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579272710892">
@@ -295,22 +300,23 @@
       <screen x="70" y="27" width="1530" height="873" />
     </state>
     <state x="406" y="254" width="524" height="491" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/70.27.1530.873@70.27.1530.873" timestamp="1580142410368" />
-    <state x="387" y="27" width="983" height="814" key="CommitChangelistDialog2" timestamp="1580207738968">
-      <screen x="70" y="27" width="1530" height="873" />
+    <state x="1510" y="27" width="1530" height="814" key="CommitChangelistDialog2" timestamp="1580405623752">
+      <screen x="0" y="27" width="3040" height="873" />
     </state>
-    <state x="387" y="27" width="983" height="814" key="CommitChangelistDialog2/70.27.1530.873@70.27.1530.873" timestamp="1580207738968" />
+    <state x="1510" y="27" width="1530" height="814" key="CommitChangelistDialog2/0.27.3040.873@0.27.3040.873" timestamp="1580405623752" />
+    <state x="387" y="27" width="983" height="814" key="CommitChangelistDialog2/70.27.1530.873@70.27.1530.873" timestamp="1580211490446" />
     <state x="313" y="183" width="489" height="574" key="DetectedRootsChooserDialog" timestamp="1579265123773">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
     <state x="313" y="183" width="489" height="574" key="DetectedRootsChooserDialog/70.27.1530.873@70.27.1530.873" timestamp="1579265123773" />
-    <state x="262" y="70" width="1224" height="735" key="DiffContextDialog" timestamp="1580207736102">
+    <state x="262" y="70" width="1224" height="735" key="DiffContextDialog" timestamp="1580207750409">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state x="262" y="70" width="1224" height="735" key="DiffContextDialog/70.27.1530.873@70.27.1530.873" timestamp="1580207736102" />
-    <state x="118" y="152" width="907" height="512" key="FileChooserDialogImpl" timestamp="1580138090445">
+    <state x="262" y="70" width="1224" height="735" key="DiffContextDialog/70.27.1530.873@70.27.1530.873" timestamp="1580207750409" />
+    <state x="118" y="152" width="907" height="512" key="FileChooserDialogImpl" timestamp="1580396070646">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state x="118" y="152" width="907" height="512" key="FileChooserDialogImpl/70.27.1530.873@70.27.1530.873" timestamp="1580138090445" />
+    <state x="118" y="152" width="907" height="512" key="FileChooserDialogImpl/70.27.1530.873@70.27.1530.873" timestamp="1580396070646" />
     <state width="1018" height="215" key="GridCell.Tab.0.bottom" timestamp="1580207470120">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
@@ -347,18 +353,18 @@
       <screen x="70" y="27" width="1530" height="873" />
     </state>
     <state x="70" y="98" width="1206" height="797" key="SettingsEditor/70.27.1530.873@70.27.1530.873" timestamp="1580142442310" />
-    <state x="491" y="291" key="com.intellij.ide.util.TipDialog" timestamp="1580195502405">
+    <state x="491" y="291" key="com.intellij.ide.util.TipDialog" timestamp="1580396037943">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state x="491" y="291" key="com.intellij.ide.util.TipDialog/70.27.1530.873@70.27.1530.873" timestamp="1580195502405" />
+    <state x="491" y="291" key="com.intellij.ide.util.TipDialog/70.27.1530.873@70.27.1530.873" timestamp="1580396037943" />
     <state x="235" y="362" width="636" height="231" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1579266055341">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
     <state x="235" y="362" width="636" height="231" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/70.27.1530.873@70.27.1530.873" timestamp="1579266055341" />
-    <state x="862" y="67" width="710" height="792" key="find.popup" timestamp="1580205790353">
+    <state x="862" y="67" width="710" height="792" key="find.popup" timestamp="1580208337947">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state x="862" y="67" width="710" height="792" key="find.popup/70.27.1530.873@70.27.1530.873" timestamp="1580205790353" />
+    <state x="862" y="67" width="710" height="792" key="find.popup/70.27.1530.873@70.27.1530.873" timestamp="1580208337947" />
     <state x="493" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1580205675928">
       <screen x="70" y="27" width="1530" height="873" />
     </state>

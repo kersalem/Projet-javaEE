@@ -35,7 +35,6 @@ public class Controleur extends HttpServlet {
 
 
 	// INIT
-
 	public void init() throws ServletException {
 		GestionFactory.open();
 		// Récupération des URLs en paramètre du web.xml
@@ -45,8 +44,8 @@ public class Controleur extends HttpServlet {
 		urlEtudiant = getServletConfig().getInitParameter("urlEtudiant");
 		urlConsultationAbsences = getServletConfig().getInitParameter("urlConsultationAbsences");
 		urlConsultationNotes = getServletConfig().getInitParameter("urlConsultationNotes");
+//		EtudiantDAO.create({"Marie", "Kersalé"}, {"cloé", "Dupond"});
 
-		//EtudiantDAO.create("test", "test");
 	}
 
 	@Override
@@ -89,8 +88,7 @@ public class Controleur extends HttpServlet {
 		}
 	}
 
-	// /////////////////////// ACCUEIL
-	//
+	/////////////////////// ACCUEIL
 	private void doAcceuil(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 
@@ -99,8 +97,7 @@ public class Controleur extends HttpServlet {
 		loadJSP(urlGestionTemplate, request, response);
 	}
 
-//	// /////////////////////// Liste des étudiants
-
+	/////////////////////// Liste des étudiants
 	private void doListeEtudiants(HttpServletRequest request,
 									 HttpServletResponse response) throws ServletException, IOException {
 
@@ -110,12 +107,11 @@ public class Controleur extends HttpServlet {
 		// Mettre les étudians en attibuts de request
 		request.setAttribute("listeEtudiants", listeEtudiants);
 
-		//
 		request.setAttribute("content", urlListeEtudiants);
 	loadJSP(urlGestionTemplate, request, response);
 	}
 
-//	///////////////////////// Détails étudiant
+///////////////////////// Détails étudiant
 
 	private void doEtudiant(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
@@ -126,13 +122,11 @@ public class Controleur extends HttpServlet {
 		int nbAbsences = etudiant.getNbAbsences();
 		int note = etudiant.getMoyenneGenerale();
 
-		// Mettre l'objet étudiant en attribut pour affichage par la vue
-		// correspondant
+		// Mettre l'objet étudiant en attribut pour affichage par la vue correspondant
 		request.setAttribute("etudiant", etudiant);
 		request.setAttribute("nbAbsences", nbAbsences);
 		request.setAttribute("note", note);
 
-//		//
 		request.setAttribute("content", urlEtudiant);
 		loadJSP(urlGestionTemplate, request, response);
 	}
